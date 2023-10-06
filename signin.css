@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+ .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+	padding: 50px;
+
+	
+	
+} 
+
+
+
+.logo{
+	text-align: center;
+	margin: 15px;
+	color: #1152a7;
+    font-size: 20px;
+    padding-bottom: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.all {
+	border: 2px solid lightgrey;
+	padding: 15px;
+	box-shadow: 2px 2px 5px lightgrey;
+}
+
+.all section div{
+    margin: 15px;
+    margin-bottom: 20px;
+    height: 1px;
+    background: lightgrey;
+
+}
+
+.all h2{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.all h4{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.middlesection input{
+	width: 180px;
+	height: 35px;
+	padding-left: 10px;
+	margin-left: 10px;
+	border-radius:5px;
+	border-color: 1px solid lightgrey;
+	margin-bottom: 10px;
+}
+
+#second input{
+	width: 97%;
+	
+}
+
+#third p{
+	margin-left: 10px;
+	margin-bottom: 4px;
+}
+
+#third input{
+	width: 30%; 
+}
+
+#fourth p{
+	margin-left: 10px;
+
+}
+
+#fourth input{
+	width: 30%;
+	height: 20px;
+}
+
+#fifth p{
+        margin-left: 10px;
+}
+
+#fifth input{
+	width: 15px;
+}
+
+#fifth p label{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 31%;
+	border: 1px solid lightgrey;
+	height: 35px;
+	border-radius: 5px;
+	color: black;
+}
+
+#sixth p{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#sixth p a{
+	color:blue;
+}
+
+#sixth button{
+	width: 35%;
+	height: 30px;
+	border-radius: 5px;
+	background-color: rgb(22, 173, 22);
+	color: white;
+	margin-left: 130px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+.seventh  {
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    
+}
+
+.seventh  a{
+    color: blue;
+	text-align: center;
+}

@@ -1,0 +1,63 @@
+.the-box-for-animations{
+    height:3rem;
+    height: 200px;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    width:12rem;
+    border-radius: 50%;
+    animation: topdown  1s ease-in-out infinite;
+    
+}
+.the-box-for-animations-2{
+    height:3rem;
+    height: 200px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    width:12rem;
+    border-radius: 50%;
+    animation: topdown  2s ease-in-out  infinite;
+    
+}
+.the-box-for-animations-3{
+    height:3rem;
+    height: 200px;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    width:12rem;
+    border-radius: 50%;
+    animation: topdown  4s ease-in-out infinite;
+   
+    
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   /*  align-items: center; */
+    /* justify-content: center; */
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+   
+    
+}
+
+@keyframes topdown {
+    0% {
+        transform: translate(0, 0);
+    }
+    35% {
+        transform: translate(-200px, 300px);
+    }
+    70% {
+        transform: translate(200px, 300px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
